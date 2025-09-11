@@ -50,7 +50,7 @@ export default function TestimonialSection() {
       <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
         <div className="text-center mb-16">
           <h2 className="text-4xl font-poppins font-bold text-gray-900 mb-4">
-            What Our <span className="text-primary-600">Customers Say</span>
+            What Our <span className="text-secondary-600">Customers Say</span>
           </h2>
           <p className="text-xl text-gray-600 max-w-3xl mx-auto">
             Hear from farmers and agricultural professionals who have experienced the Magnetar difference

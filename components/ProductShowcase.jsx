@@ -6,7 +6,7 @@ const products = [
     {
         name: 'BioPel Organic',
         description: 'Natural weed control solution made from plant extracts that effectively targets unwanted vegetation.',
-        image: 'https://images.unsplash.com/photo-1611759318065-23c2b7e2c0c7?ixlib=rb-4.0.3&auto=format&fit=crop&w=600&q=80',
+        image: '/images/products/f1.jpeg',
         features: ['Organic certified', 'Environmentally safe', 'Fast acting', 'Long lasting'],
         icon: Sprout,
         color: 'text-green-600'
@@ -14,7 +14,7 @@ const products = [
     {
         name: 'CropShield Plus',
         description: 'Advanced insecticide formula that protects crops from over 50 different types of pests.',
-        image: 'https://images.unsplash.com/photo-1586773860418-d37222d8fce3?ixlib=rb-4.0.3&auto=format&fit=crop&w=600&q=80',
+        image: '/images/products/f2.jpeg',
         features: ['Broad spectrum', 'Rainfast technology', 'Crop safe', 'Residual control'],
         icon: Shield,
         color: 'text-blue-600'
@@ -22,7 +22,7 @@ const products = [
     {
         name: 'HarvestGuard',
         description: 'Post-harvest preservation solution that extends shelf life and reduces losses during storage and transport.',
-        image: 'https://images.unsplash.com/photo-1602524810067-8a55a2a7b7f6?ixlib=rb-4.0.3&auto=format&fit=crop&w=600&q=80',
+        image: '/images/products/f3.jpeg',
         features: ['Prolongs freshness', 'Reduces spoilage', 'Safe for storage', 'Maintains quality'],
         icon: Warehouse,
         color: 'text-orange-600'

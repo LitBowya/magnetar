@@ -16,7 +16,7 @@ export default function HouseholdPage() {
       <Hero
         title="Household Solutions"
         subtitle="Keep your home safe and pest-free with our effective and environmentally conscious household products."
-        imageUrl="https://images.unsplash.com/photo-1583847268964-b28dc8f51f92?ixlib=rb-4.0.3&auto=format&fit=crop&w=2070&q=80"
+        imageUrl="/images/household/hhero.jpeg"
         showButton={false}
       />
 
@@ -64,7 +64,7 @@ export default function HouseholdPage() {
             <div className="relative">
               <div className="bg-gradient-to-br from-primary-500 to-secondary-500 rounded-2xl p-1">
                 <Image
-                  src="https://images.unsplash.com/photo-1556911220-e15b29be8c8f?ixlib=rb-4.0.3&auto=format&fit=crop&w=1000&q=80"
+                  src="/images/household/himage.jpeg"
                   alt="Household"
                   width={1000}
                   height={600}
@@ -95,21 +95,21 @@ export default function HouseholdPage() {
                 description:
                   "Effective ant killer and repellent for indoor use",
                 image:
-                  "https://images.unsplash.com/photo-1533090368676-1fd25485db88?ixlib=rb-4.0.3&auto=format&fit=crop&w=600&q=80",
+                  "/images/products/h1.jpeg",
               },
               {
                 name: "MosquitoFree Outdoor",
                 description:
                   "Long-lasting mosquito repellent for outdoor areas",
                 image:
-                  "https://images.unsplash.com/photo-1520263115673-610416f52ab6?ixlib=rb-4.0.3&auto=format&fit=crop&w=600&q=80",
+                  "/images/products/h2.jpeg",
               },
               {
                 name: "GardenGuard Spray",
                 description:
                   "Protect your garden from pests without harmful chemicals",
                 image:
-                  "https://images.unsplash.com/photo-1416879595882-3373a0480b5b?ixlib=rb-4.0.3&auto=format&fit=crop&w=600&q=80",
+                  "/images/products/h3.jpeg",
               },
             ].map((product, index) => (
               <ProductCard key={index} product={product} />

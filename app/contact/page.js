@@ -13,7 +13,7 @@ export default function ContactPage() {
       <Hero
         title="Get in Touch"
         subtitle="We're here to answer your questions and help you find the right solutions for your needs."
-        imageUrl="https://images.unsplash.com/photo-1516387938699-a93567ec168e?ixlib=rb-4.0.3&auto=format&fit=crop&w=2070&q=80"
+        imageUrl="/images/contact/contact.jpeg"
         showButton={false}
       />
 
@@ -22,7 +22,7 @@ export default function ContactPage() {
           <div className="grid grid-cols-1 lg:grid-cols-2 gap-16">
             <div>
               <h2 className="text-4xl font-poppins font-bold text-gray-900 mb-6">
-                Contact <span className="text-primary-600">Information</span>
+                Contact <span className="text-secondary-600">Information</span>
               </h2>
               <p className="text-lg text-gray-600 mb-8">
                 Have questions about our products or need assistance? Reach out to our team through
@@ -35,7 +35,7 @@ export default function ContactPage() {
                   <Phone className="h-6 w-6 text-primary-600 mt-1 mr-4" />
                   <div>
                     <h3 className="font-poppins font-bold text-gray-900 mb-2">Phone</h3>
-                    <p className="text-gray-600">+1 (555) 123-4567</p>
+                    <p className="text-gray-600">+233 55 483 6031</p>
                     <p className="text-sm text-gray-500">Mon-Fri from 8am to 6pm</p>
                   </div>
                 </div>
@@ -44,7 +44,7 @@ export default function ContactPage() {
                   <Mail className="h-6 w-6 text-primary-600 mt-1 mr-4" />
                   <div>
                     <h3 className="font-poppins font-bold text-gray-900 mb-2">Email</h3>
-                    <p className="text-gray-600">info@magnetar.com</p>
+                    <p className="text-gray-600">info@magnetarel.com</p>
                     <p className="text-sm text-gray-500">We will respond within 24 hours</p>
                   </div>
                 </div>
@@ -53,8 +53,12 @@ export default function ContactPage() {
                   <MapPin className="h-6 w-6 text-primary-600 mt-1 mr-4" />
                   <div>
                     <h3 className="font-poppins font-bold text-gray-900 mb-2">Office</h3>
-                    <p className="text-gray-600">123 Agriculture Street</p>
-                    <p className="text-gray-600">Farmville, CA 94203</p>
+                    <p className="text-gray-600">No. 28
+
+                        31th street Dansoman.
+
+                        </p>
+                    <p className="text-gray-600">Accra, Ghana </p>
                   </div>
                 </div>
 
@@ -92,7 +96,7 @@ export default function ContactPage() {
                   <p className="text-primary-700 mb-4">
                     For urgent agricultural emergencies outside business hours, call our 24/7 support line:
                   </p>
-                  <p className="text-xl font-poppins font-bold text-primary-600">+1 (555) EMERGENCY</p>
+                  <p className="text-xl font-poppins font-bold text-primary-600">+233 20 045 8086</p>
                 </div>
               </div>
             </div>
@@ -104,12 +108,12 @@ export default function ContactPage() {
         <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
           <div className="text-center mb-16">
             <h2 className="text-4xl font-poppins font-bold text-gray-900 mb-4">
-              Our <span className="text-primary-600">Location</span>
+              Our <span className="text-secondary-600">Location</span>
             </h2>
             <p className="text-xl text-gray-600 max-w-3xl mx-auto">
               Visit our headquarters or find a distributor near you
             </p>
-          </div>
+          </div>s
 
           <div className="bg-white rounded-2xl shadow-lg overflow-hidden">
             <div className="h-96 w-full bg-gray-200">

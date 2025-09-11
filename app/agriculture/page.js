@@ -15,7 +15,7 @@ export default function AgriculturePage() {
       <Hero
         title="Agricultural Solutions"
         subtitle="Discover our comprehensive range of products designed to enhance productivity and protect your crops."
-        imageUrl="https://images.unsplash.com/photo-1625246333195-78d9c38ad449?ixlib=rb-4.0.3&auto=format&fit=crop&w=2070&q=80"
+        imageUrl="/images/agriculture/ahero.jpeg"
         showButton={false}
       />
 
@@ -57,7 +57,7 @@ export default function AgriculturePage() {
               <div className="relative">
                   <div className="bg-gradient-to-br from-primary-500 to-secondary-500 rounded-2xl p-1 h-full">
                       <Image
-                          src="https://images.unsplash.com/photo-1595341888016-a392ef81b7de?ixlib=rb-4.0.3&auto=format&fit=crop&w=1000&q=80"
+                          src="/images/agriculture/aimage.jpeg"
                           alt="Farm field"
                           width={1000}
                           height={600}
@@ -87,17 +87,17 @@ export default function AgriculturePage() {
               {
                 name: 'WeedMaster Pro',
                 description: 'Advanced herbicide for broad-spectrum weed control',
-                image: 'https://images.unsplash.com/photo-1593970668875-c5191a51287a?ixlib=rb-4.0.3&auto=format&fit=crop&w=600&q=80'
+                image: '/images/products/a1.jpeg'
               },
               {
                 name: 'InsectGuard Plus',
                 description: 'Effective insecticide against common agricultural pests',
-                image: 'https://images.unsplash.com/photo-1563227815-4b3d4e0250d9?ixlib=rb-4.0.3&auto=format&fit=crop&w=600&q=80'
+                image: '/images/products/a2.jpeg'
               },
               {
                 name: 'CropBoost Elite',
                 description: 'Plant growth regulator for enhanced yield and quality',
-                image: 'https://images.unsplash.com/photo-1416879595882-3373a0480b5b?ixlib=rb-4.0.3&auto=format&fit=crop&w=600&q=80'
+                image: '/images/products/a3.jpeg'
               }
             ].map((product, index) => (
               <ProductCard key={index} product={product} />

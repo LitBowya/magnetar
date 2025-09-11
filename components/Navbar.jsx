@@ -195,10 +195,9 @@ export default function Navbar() {
             >
                 <div className="px-4 pt-5 pb-2 flex justify-between items-center border-b">
                     <div className="flex items-center">
-                        <Shield className="h-8 w-8 text-primary-600" />
-                        <span className="ml-2 text-xl font-poppins font-bold bg-gradient-to-r from-primary-600 to-secondary-600 bg-clip-text text-transparent">
-              Magnetar
-            </span>
+                        <Link href="/" className="flex-shrink-0 flex items-center">
+                            <Logo size={'xl'} />
+                        </Link>
                     </div>
                     <button
                         onClick={toggleMobileMenu}

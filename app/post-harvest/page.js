@@ -15,7 +15,7 @@ export default function PostHarvestPage() {
       <Hero
         title="Post-Harvest Solutions"
         subtitle="Protect and preserve your harvest with our innovative post-harvest products that reduce waste and maintain quality."
-        imageUrl="https://images.unsplash.com/photo-1574323347407-f5e1ad6d020b?ixlib=rb-4.0.3&auto=format&fit=crop&w=2070&q=80"
+        imageUrl="/images/post-harvest/phhero.jpeg"
         showButton={false}
       />
 
@@ -57,7 +57,7 @@ export default function PostHarvestPage() {
             <div className="relative">
               <div className="bg-gradient-to-br from-primary-500 to-secondary-500 rounded-2xl p-1">
                 <Image
-                  src="https://images.unsplash.com/photo-1574323347407-f5e1ad6d020b?ixlib=rb-4.0.3&auto=format&fit=crop&w=1000&q=80"
+                  src="/images/post-harvest/phimage.jpeg"
                   alt="Post Harvest"
                   width={1000}
                   height={600}
@@ -86,17 +86,17 @@ export default function PostHarvestPage() {
               {
                 name: 'StoreSafe Granules',
                 description: 'Prevent mold and pest infestation in stored grains',
-                image: 'https://images.unsplash.com/photo-1598974357801-cbca100e65d3?ixlib=rb-4.0.3&auto=format&fit=crop&w=600&q=80'
+                image: '/images/products/ph1.jpeg'
               },
               {
                 name: 'FreshKeep Coatings',
                 description: 'Extend the shelf life of fruits and vegetables',
-                image: 'https://images.unsplash.com/photo-1566842600175-97dca3dfc3c7?ixlib=rb-4.0.3&auto=format&fit=crop&w=600&q=80'
+                image: '/images/products/ph2.jpeg'
               },
               {
                 name: 'TransportGuard Sprays',
                 description: 'Protect produce during transportation from spoilage',
-                image: 'https://images.unsplash.com/photo-1574323347407-f5e1ad6d020b?ixlib=rb-4.0.3&auto=format&fit=crop&w=600&q=80'
+                image: '/images/products/ph3.jpeg'
               }
             ].map((product, index) => (
               <ProductCard key={index} product={product} />

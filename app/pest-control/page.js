@@ -15,7 +15,7 @@ export default function PestControlPage() {
             <Hero
                 title="Pest Control Solutions"
                 subtitle="Protect and preserve your harvest with our innovative pest control products that reduce waste and maintain quality."
-                imageUrl="https://images.unsplash.com/photo-1616628188479-b26db10c7a25?ixlib=rb-4.0.3&auto=format&fit=crop&w=2070&q=80" // Pest spraying in crops
+                imageUrl="/images/pest-control/pchero.jpeg" // Pest spraying in crops
                 showButton={false}
             />
 
@@ -57,7 +57,7 @@ export default function PestControlPage() {
                         <div className="relative">
                             <div className="bg-gradient-to-br from-primary-500 to-secondary-500 rounded-2xl p-1">
                                 <Image
-                                    src="https://images.unsplash.com/photo-1623934989609-f1afad9dca7e?ixlib=rb-4.0.3&auto=format&fit=crop&w=1000&q=80" // Pest fumigation / prevention
+                                    src="/images/pest-control/pcimage.jpeg" // Pest fumigation / prevention
                                     alt="Pest Control Storage"
                                     width={1000}
                                     height={600}
@@ -86,17 +86,17 @@ export default function PestControlPage() {
                             {
                                 name: 'StoreSafe Granules',
                                 description: 'Prevent mold and pest infestation in stored grains',
-                                image: 'https://images.unsplash.com/photo-1593264725810-9e3d6df5b19c?ixlib=rb-4.0.3&auto=format&fit=crop&w=600&q=80' // Stored grains pest prevention
+                                image: '/images/products/pest-1.jpeg' // Stored grains pest prevention
                             },
                             {
-                                name: 'FreshKeep Coatings',
+                                name: 'FreshKeep CoatingsFreshKeep Coatings',
                                 description: 'Extend the shelf life of fruits and vegetables',
-                                image: 'https://images.unsplash.com/photo-1594633312681-425c91c54c2d?ixlib=rb-4.0.3&auto=format&fit=crop&w=600&q=80' // Pest-free produce
+                                image: '/images/products/pest-2.jpeg' // Pest-free produce
                             },
                             {
                                 name: 'TransportGuard Sprays',
                                 description: 'Protect produce during transportation from spoilage',
-                                image: 'https://images.unsplash.com/photo-1623935004412-1c5d79e9f618?ixlib=rb-4.0.3&auto=format&fit=crop&w=600&q=80' // Spraying crops against pests
+                                image: '/images/products/pest-3.jpeg' // Spraying crops against pests
                             }
                         ].map((product, index) => (
                             <ProductCard key={index} product={product} />

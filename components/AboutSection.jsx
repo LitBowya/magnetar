@@ -34,7 +34,7 @@ const AboutSection = () => {
                 <div className="relative">
                     <div className="bg-gradient-to-br from-secondary-500 to-secondary-100 rounded-2xl p-1">
                         <img
-                            src="https://images.unsplash.com/photo-1605000797499-95a51c5269ae?ixlib=rb-4.0.3&auto=format&fit=crop&w=1000&q=80"
+                            src="/images/home/home1.png"
                             alt="Agricultural field"
                             className="rounded-2xl shadow-lg"
                         />

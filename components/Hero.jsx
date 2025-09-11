@@ -1,15 +1,11 @@
 // components/Hero.js
-"use client";
+
 import Image from "next/image";
-import { ArrowRight, Play } from "lucide-react";
 
 export default function Hero({
   title,
   subtitle,
   imageUrl,
-  showButton = false,
-  buttonText = "Explore Products",
-  buttonLink = "/products",
 }) {
   return (
     <section className="relative h-screen flex items-center justify-center overflow-hidden">
@@ -21,10 +17,6 @@ export default function Hero({
           fill
           priority
           className="object-cover"
-          onError={(e) => {
-            e.target.src =
-              "data:image/svg+xml;base64,PHN2ZyB3aWR0aD0iMTAwJSIgaGVpZ2h0PSIxMDAlIiB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciPjxyZWN0IHdpZHRoPSIxMDAlIiBoZWlnaHQ9IjEwMCUiIGZpbGw9IiNmNWY1ZjUiLz48dGV4dCB4PSI1MCUiIHk9IjUwJSIgZm9udC1mYW1pbHk9InNhbnMtc2VyaWYiIGZvbnQtc2l6ZT0iMjQiIGZpbGw9IiM5OTk5OTkiIHRleHQtYW5jaG9yPSJtaWRkbGUiIGR5PSIuM2VtIj5NYWduZXRhciBJbWFnZTwvdGV4dD48L3N2Zz4=";
-          }}
         />
         <div className="absolute inset-0 bg-gradient-to-t from-black/80 to-black/20"></div>
       </div>
@@ -41,16 +33,6 @@ export default function Hero({
         </p>
       </div>
 
-      {/* Floating elements for visual interest */}
-      <div className="absolute top-20 left-10 w-20 h-20 bg-primary-500 rounded-full opacity-50 animate-bounce-slow"></div>
-      <div
-        className="absolute top-40 right-20 w-16 h-16 bg-secondary-500 rounded-full opacity-50 animate-bounce-slow"
-        style={{ animationDelay: "0.2s" }}
-      ></div>
-      <div
-        className="absolute bottom-40 left-24 w-12 h-12 bg-primary-500 rounded-full opacity-50 animate-bounce-slow"
-        style={{ animationDelay: "0.4s" }}
-      ></div>
     </section>
   );
 }

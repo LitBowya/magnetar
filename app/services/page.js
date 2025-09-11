@@ -42,7 +42,7 @@ export default function ServicesPage() {
             <Hero
                 title="Our Professional Services"
                 subtitle="Comprehensive pest control solutions for all your needs"
-                imageUrl="https://images.unsplash.com/photo-1585494189917-1d8db2d67b02?ixlib=rb-4.0.3&auto=format&fit=crop&w=2070&q=80"
+                imageUrl="/images/services/services.jpeg"
                 showButton={false}
             />
 
@@ -51,7 +51,7 @@ export default function ServicesPage() {
                 <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
                     <div className="text-center mb-16">
                         <h2 className="text-4xl font-poppins font-bold text-gray-900 mb-4">
-                            <span className="text-secondary-600">Specialized</span> Areas of Vector Control
+                            <span className="text-secondary-600">Specialized</span> Areas of Control
                         </h2>
                         <p className="text-xl text-gray-600 max-w-3xl mx-auto">
                             We provide professional pest control services for a wide range of facilities and establishments
@@ -111,7 +111,7 @@ export default function ServicesPage() {
             {/* Call to Action Section */}
             <section className="py-20 bg-white">
                 <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
-                    <div className="bg-gradient-to-r from-primary-600 to-secondary-600 rounded-3xl p-12 text-center text-white">
+                    <div className="bg-secondary-500 rounded-3xl p-12 text-center text-white">
                         <h2 className="text-4xl md:text-5xl font-poppins font-bold mb-6">
                             We Keep Your Business In Business!
                         </h2>

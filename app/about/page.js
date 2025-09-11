@@ -1,7 +1,7 @@
 // app/about/page.js
 import Hero from '@/components/Hero';
-import TeamSection from '@/components/TeamSection';
 import { Target, Eye, Shield, Users, Heart, Award } from "lucide-react";
+import Image from "next/image";
 
 export const metadata = {
     title: 'About Us | Magnetar Bethel - Innovative Agricultural Solutions',
@@ -14,7 +14,7 @@ export default function AboutPage() {
             <Hero
                 title="About Magnetar Bethel"
                 subtitle="Consistency, quality, and service above all else"
-                imageUrl="https://images.unsplash.com/photo-1521737711867-e3b97375f902?ixlib=rb-4.0.3&auto=format&fit=crop&w=2070&q=80"
+                imageUrl="/images/about/about.jpeg"
                 showButton={false}
             />
 
@@ -46,10 +46,12 @@ export default function AboutPage() {
                         </div>
                         <div className="relative">
                             <div className="bg-gradient-to-br from-primary-500 to-secondary-500 rounded-2xl p-1">
-                                <img
-                                    src="https://images.unsplash.com/photo-1600880292203-757bb62b4baf?ixlib=rb-4.0.3&auto=format&fit=crop&w=1000&q=80"
-                                    alt="Team meeting"
+                                <Image
+                                    src="/images/about/aboutc.jpeg"
+                                    alt="Team meeting" width={1000}
+                                    height={600}
                                     className="rounded-2xl shadow-lg w-full h-auto"
+                                    sizes="(max-width: 768px) 100vw, (max-width: 1200px) 50vw, 33vw"
                                 />
                             </div>
                             <div className="absolute -bottom-6 -left-6 bg-white rounded-2xl p-4 shadow-lg">
@@ -74,10 +76,13 @@ export default function AboutPage() {
                     <div className="grid grid-cols-1 lg:grid-cols-2 gap-16 items-center">
                         <div className="relative order-2 lg:order-1">
                             <div className="bg-gradient-to-br from-green-400 to-blue-400 rounded-2xl p-1">
-                                <img
-                                    src="https://images.unsplash.com/photo-1586773860418-d37222d8fce3?ixlib=rb-4.0.3&auto=format&fit=crop&w=1000&q=80"
+                                <Image
+                                    src="/images/about/aboutt.jpeg"
                                     alt="Bio-Pel Technology"
+                                    width={1000}
+                                    height={600}
                                     className="rounded-2xl shadow-lg w-full h-auto"
+                                    sizes="(max-width: 768px) 100vw, (max-width: 1200px) 50vw, 33vw"
                                 />
                             </div>
                         </div>
@@ -209,7 +214,6 @@ export default function AboutPage() {
                 </div>
             </section>
 
-            <TeamSection />
         </>
     );
 }

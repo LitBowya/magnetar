@@ -15,7 +15,7 @@ export default function BiopelPage() {
       <Hero
         title="Biopel Natural Solutions"
         subtitle="Discover our eco-friendly biopel products that provide effective pest control while protecting the environment."
-        imageUrl="https://images.unsplash.com/photo-1530836369250-ef72a3f5cda8?ixlib=rb-4.0.3&auto=format&fit=crop&w=2070&q=80"
+        imageUrl="/images/biopel/bhero.jpeg"
         showButton={false}
       />
 
@@ -58,7 +58,7 @@ export default function BiopelPage() {
               <div className="relative">
                   <div className="bg-gradient-to-br from-primary-500 to-secondary-500 rounded-2xl p-1 h-full">
                       <Image
-                          src="https://images.unsplash.com/photo-1595341888016-a392ef81b7de?ixlib=rb-4.0.3&auto=format&fit=crop&w=1000&q=80"
+                          src="/images/biopel/bimage.jpeg"
                           alt="Farm field"
                           width={1000}
                           height={600}
@@ -89,17 +89,17 @@ export default function BiopelPage() {
               {
                 name: 'BioHerb Natural',
                 description: 'Organic herbicide made from plant extracts',
-                image: 'https://images.unsplash.com/photo-1593970668875-c5191a51287a?ixlib=rb-4.0.3&auto=format&fit=crop&w=600&q=80'
+                image: '/images/products/biopel-1.jpeg'
               },
               {
                 name: 'EcoInsect Guard',
                 description: 'Natural insect repellent for crops',
-                image: 'https://images.unsplash.com/photo-1563227815-4b3d4e0250d9?ixlib=rb-4.0.3&auto=format&fit=crop&w=600&q=80'
+                image: '/images/products/biopel-2.jpeg'
               },
               {
                 name: 'PlantGrowth Bio',
                 description: 'Organic plant growth enhancer',
-                image: 'https://images.unsplash.com/photo-1416879595882-3373a0480b5b?ixlib=rb-4.0.3&auto=format&fit=crop&w=600&q=80'
+                image: '/images/products/biopel-3.jpeg'
               }
             ].map((product, index) => (
               <ProductCard key={index} product={product} />

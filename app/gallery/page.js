@@ -225,7 +225,7 @@ export default function GalleryPage() {
 
                     <button
                         onClick={() => navigateImage('prev')}
-                        className="absolute left-4 text-white hover:text-primary-400 transition-colors"
+                        className="absolutse left-4 text-white hover:text-primary-400 transition-colors"
                     >
                         <ChevronLeft className="h-8 w-8" />
                     </button>

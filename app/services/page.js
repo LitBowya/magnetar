@@ -1,6 +1,7 @@
 // app/services/page.js
 import Hero from '@/components/Hero';
 import { Building, Home, Hospital, Warehouse, School, Briefcase, Leaf, Utensils, ShieldCheck, Bug, Rat, Worm } from 'lucide-react';
+import Link from "next/link";
 
 export const metadata = {
     title: 'Our Services | Magnetar - Professional Pest Control Solutions',
@@ -124,7 +125,7 @@ export default function ServicesPage() {
                             With the expertise this kind Magnetar Bethel pest control will handle with our vast experience.
                         </p>
                         <div className="flex flex-col sm:flex-row justify-center gap-4">
-                            <a
+                            <Link
                                 href="/contact"
                                 className="inline-flex items-center bg-white text-primary-600 px-8 py-4 rounded-full font-poppins font-medium text-lg hover:bg-gray-100 transition-colors duration-300"
                             >
@@ -132,13 +133,13 @@ export default function ServicesPage() {
                                 <svg className="ml-2 h-5 w-5" fill="none" viewBox="0 0 24 24" stroke="currentColor">
                                     <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M14 5l7 7m0 0l-7 7m7-7H3" />
                                 </svg>
-                            </a>
-                            <a
+                            </Link>
+                            <Link
                                 href="/about"
                                 className="inline-flex items-center border-2 border-white text-white px-8 py-4 rounded-full font-poppins font-medium text-lg hover:bg-white hover:text-primary-600 transition-colors duration-300"
                             >
                                 Learn More About Us
-                            </a>
+                            </Link>
                         </div>
                     </div>
                 </div>

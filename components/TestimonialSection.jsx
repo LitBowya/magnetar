@@ -60,7 +60,7 @@ export default function TestimonialSection() {
         <div className="relative max-w-4xl mx-auto">
           <div className="bg-white rounded-2xl shadow-xl p-8 md:p-12">
 
-            <div className="relative h-64 lg:h-48 overflow-hidden">
+            <div className="relative h-72 lg:h-48 overflow-hidden">
               {testimonials.map((testimonial, index) => (
                 <div
                   key={index}

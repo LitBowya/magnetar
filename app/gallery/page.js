@@ -3,6 +3,7 @@
 import { useState } from 'react';
 import Image from 'next/image';
 import { X, ChevronLeft, ChevronRight, ZoomIn } from 'lucide-react';
+import Link from "next/link";
 
 const galleryImages = Array.from({ length: 22 }, (_, i) => ({
     id: i + 1,
@@ -129,18 +130,18 @@ export default function GalleryPage() {
                         solutions can work for you.
                     </p>
                     <div className="flex flex-col sm:flex-row justify-center gap-4">
-                        <a
+                        <Link
                             href="/contact"
                             className="inline-flex items-center bg-white text-primary-600 px-8 py-4 rounded-full font-poppins font-medium text-lg hover:bg-gray-100 transition-colors duration-300"
                         >
                             Get Free Consultation
-                        </a>
-                        <a
+                        </Link>
+                        <Link
                             href="/services"
                             className="inline-flex items-center border-2 border-white text-white px-8 py-4 rounded-full font-poppins font-medium text-lg hover:bg-white hover:text-primary-600 transition-colors duration-300"
                         >
                             View Our Services
-                        </a>
+                        </Link>
                     </div>
                 </div>
             </section>

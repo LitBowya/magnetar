@@ -113,7 +113,7 @@ export default function ContactPage() {
             <p className="text-xl text-gray-600 max-w-3xl mx-auto">
               Visit our headquarters or find a distributor near you
             </p>
-          </div>s
+          </div>
 
           <div className="bg-white rounded-2xl shadow-lg overflow-hidden">
             <div className="h-96 w-full bg-gray-200">

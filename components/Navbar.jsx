@@ -46,12 +46,11 @@ export default function Navbar() {
                 { name: "Biopel", href: "/biopel", icon: Sprout },
                 { name: "Agriculture", href: "/agriculture", icon: Sprout },
                 { name: "Household", href: "/household", icon: Home },
-                { name: "Post-Harvest", href: "/post-harvest", icon: Warehouse },
                 { name: "Pest Control", href: "/pest-control", icon: BugOff },
+                { name: "Post-Harvest", href: "/post-harvest", icon: Warehouse },
             ],
         },
         { name: "Services", href: "/services", icon: Briefcase },
-        { name: "Gallery", href: "/gallery", icon: Image },
         { name: "About", href: "/about", icon: Info },
         { name: "Contact", href: "/contact", icon: Phone },
     ];

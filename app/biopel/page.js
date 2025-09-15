@@ -58,10 +58,10 @@ export default function BiopelPage() {
               <div className="relative">
                   <div className="bg-gradient-to-br from-primary-500 to-secondary-500 rounded-2xl p-1 h-full">
                       <Image
-                          src="/images/biopel/bimage.jpeg"
+                          src="/images/biopel/bimage.png"
                           alt="Farm field"
                           width={1000}
-                          height={600}
+                          height={850}
                           className="rounded-2xl shadow-lg w-full h-auto"
                           sizes="(max-width: 768px) 100vw, (max-width: 1200px) 50vw, 33vw"
                       />
@@ -76,30 +76,32 @@ export default function BiopelPage() {
       <section className="py-20 bg-gray-50">
         <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
           <div className="text-center mb-16">
-            <h2 className="text-4xl font-poppins font-bold text-gray-900 mb-4">
-              Biopel <span className="text-secondary-600">Product Line</span>
-            </h2>
-            <p className="text-xl text-gray-600 max-w-3xl mx-auto">
-              Explore our range of natural agricultural solutions
-            </p>
+              <h2 className="text-4xl font-poppins font-bold text-gray-900 mb-4">
+                  Biopel <span className="text-secondary-600">Context</span>
+              </h2>
+              <p className="text-xl text-gray-600 max-w-3xl mx-auto">
+                  Across villages and fields, farmers struggle with tired soils,
+                  high expenses, and fragile ecosystems.
+              </p>
+
           </div>
 
           <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-8">
             {[
               {
-                name: 'BioHerb Natural',
-                description: 'Organic herbicide made from plant extracts',
-                image: '/images/products/biopel-1.jpeg'
+                name: 'Low Crop Yields',
+                description: 'Poor soil health reduces food production for farmers.',
+                image: '/images/biopel/biopelp1.jpeg'
               },
               {
-                name: 'EcoInsect Guard',
-                description: 'Natural insect repellent for crops',
-                image: '/images/products/biopel-2.jpeg'
+                name: 'High Fertilizer Costs',
+                description: 'Expensive inputs strain small farmers’ limited budgets.',
+                image: '/images/biopel/biopelp2.jpeg'
               },
               {
-                name: 'PlantGrowth Bio',
-                description: 'Organic plant growth enhancer',
-                image: '/images/products/biopel-3.jpeg'
+                name: 'Environmental Damage',
+                description: 'Chemical use pollutes rivers, soil, and rural communities.',
+                image: '/images/biopel/biopelp3.jpeg'
               }
             ].map((product, index) => (
               <ProductCard key={index} product={product} />
@@ -107,6 +109,43 @@ export default function BiopelPage() {
           </div>
         </div>
       </section>
+
+        {/* Product Grid */}
+        <section className="py-20 bg-gray-50">
+            <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
+                <div className="text-center mb-16">
+                    <h2 className="text-4xl font-poppins font-bold text-gray-900 mb-4">
+                        Biopel <span className="text-secondary-600">Opportunities</span>
+                    </h2>
+                    <p className="text-xl text-gray-600 max-w-3xl mx-auto">
+                        Richer harvests, lower costs, and cleaner environments
+                        create stronger farming communities across Africa.
+                    </p>
+                </div>
+
+                <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-8">
+                    {[
+                        {
+                            name: 'Boosted Harvests',
+                            description: 'Healthy soil supports abundant and nutritious crops.',
+                            image: '/images/biopel/biopels1.jpeg'
+                        },
+                        {
+                            name: 'Affordable Farming',
+                            description: 'A cost-friendly approach reduces dependence on costly chemicals.',
+                            image: '/images/biopel/biopels2.jpeg'
+                        },
+                        {
+                            name: 'Sustainable Farming',
+                            description: 'Eco-friendly practices protect the land, water, and future generations.',
+                            image: '/images/biopel/biopels3.jpeg'
+                        }
+                    ].map((product, index) => (
+                        <ProductCard key={index} product={product} />
+                    ))}
+                </div>
+            </div>
+        </section>
 
       {/* Additional sections can be added here */}
     </>

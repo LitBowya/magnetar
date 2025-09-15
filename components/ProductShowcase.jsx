@@ -4,25 +4,25 @@ import {CheckCircle, Sprout, Shield, Warehouse} from 'lucide-react';
 
 const products = [
     {
-        name: 'BioPel Organic',
-        description: 'Natural weed control solution made from plant extracts that effectively targets unwanted vegetation.',
-        image: '/images/products/f1.jpeg',
+        name: 'Insect Repellent for a Pest-Free Home',
+        description: 'Our Bio-Pel™ sachets effectively repel bed bugs, cockroaches, ants, and silverfish without harming humans or pets.',
+        image: '/images/home/home-insect.png',
         features: ['Organic certified', 'Environmentally safe', 'Fast acting', 'Long lasting'],
         icon: Sprout,
         color: 'text-green-600'
     },
     {
-        name: 'CropShield Plus',
-        description: 'Advanced insecticide formula that protects crops from over 50 different types of pests.',
-        image: '/images/products/f2.jpeg',
+        name: 'Bacteria Repellent for Cleaner Spaces',
+        description: 'Neutralize unpleasant odors and bacteria in your home with our Bio-Pel™ sachets.',
+        image: '/images/home/home-bacteria.png',
         features: ['Broad spectrum', 'Rainfast technology', 'Crop safe', 'Residual control'],
         icon: Shield,
         color: 'text-blue-600'
     },
     {
-        name: 'HarvestGuard',
-        description: 'Post-harvest preservation solution that extends shelf life and reduces losses during storage and transport.',
-        image: '/images/products/f3.jpeg',
+        name: 'Anti-Sprouting Solutions for Longer Shelf Life',
+        description: 'Prevent sprouting and decay in tubers with our slow-release essential oils.',
+        image: '/images/home/home-plant.png',
         features: ['Prolongs freshness', 'Reduces spoilage', 'Safe for storage', 'Maintains quality'],
         icon: Warehouse,
         color: 'text-orange-600'
@@ -36,10 +36,10 @@ export default function ProductShowcase() {
       <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
         <div className="text-center mb-16">
           <h2 className="text-4xl font-poppins font-bold text-gray-900 mb-4">
-            Our <span className="text-secondary-600">Featured Products</span>
+            Our <span className="text-secondary-600">Innovative Pest Control and Organic Preservation Solutions</span>
           </h2>
           <p className="text-xl text-gray-600 max-w-3xl mx-auto">
-            Discover our innovative solutions designed to meet the challenges of modern agriculture
+              Discover our range of eco-friendly pest control solutions designed to protect your home and crops. Our products utilize advanced technology to ensure safety and effectiveness.
           </p>
         </div>
 

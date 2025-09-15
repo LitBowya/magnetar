@@ -67,7 +67,7 @@ export default function HouseholdPage() {
                   src="/images/household/himage.jpeg"
                   alt="Household"
                   width={1000}
-                  height={600}
+                  height={850}
                   className="rounded-2xl shadow-lg w-full h-auto"
                   sizes="(max-width: 768px) 100vw, (max-width: 1200px) 50vw, 33vw"
                 />
@@ -79,37 +79,40 @@ export default function HouseholdPage() {
 
       <section className="py-20 bg-gray-50">
         <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
-          <div className="text-center mb-16">
-            <h2 className="text-4xl font-poppins font-bold text-gray-900 mb-4">
-              Household <span className="text-secondary-600">Product Line</span>
-            </h2>
-            <p className="text-xl text-gray-600 max-w-3xl mx-auto">
-              Explore our range of solutions designed for home and garden
-            </p>
-          </div>
+            <div className="text-center mb-16">
+                <h2 className="text-4xl font-poppins font-bold text-gray-900 mb-4">
+                    Household <span className="text-secondary-600">Realities</span>
+                </h2>
+                <p className="text-xl text-gray-600 max-w-3xl mx-auto">
+                    Across many homes, mosquitoes disturb sleep, cockroaches spread germs,
+                    and rodents damage food and property. These everyday struggles
+                    threaten comfort and wellbeing.
+                </p>
+            </div>
 
-          <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-8">
+
+            <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-8">
             {[
               {
-                name: "HomeShield Ant Control",
+                name: "Mosquito Infestation",
                 description:
-                  "Effective ant killer and repellent for indoor use",
+                  "Mosquitoes spread malaria and disturb peaceful rest.",
                 image:
-                  "/images/products/h1.jpeg",
+                  "/images/household/householdp1.jpeg",
               },
               {
-                name: "MosquitoFree Outdoor",
+                name: "Unhygienic Homes",
                 description:
-                  "Long-lasting mosquito repellent for outdoor areas",
+                  "Cockroaches, rats, and insects contaminate food and water.",
                 image:
-                  "/images/products/h2.jpeg",
+                  "/images/household/householdp2.jpeg",
               },
               {
-                name: "GardenGuard Spray",
+                name: "Bedbug Bites",
                 description:
-                  "Protect your garden from pests without harmful chemicals",
+                  "Infestations cause discomfort, skin irritation, and embarrassment.",
                 image:
-                  "/images/products/h3.jpeg",
+                  "/images/household/householdp3.jpeg",
               },
             ].map((product, index) => (
               <ProductCard key={index} product={product} />
@@ -117,6 +120,49 @@ export default function HouseholdPage() {
           </div>
         </div>
       </section>
+
+        <section className="py-20 bg-gray-50">
+            <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
+                <div className="text-center mb-16">
+                    <h2 className="text-4xl font-poppins font-bold text-gray-900 mb-4">
+                        Household <span className="text-secondary-600">Care</span>
+                    </h2>
+                    <p className="text-xl text-gray-600 max-w-3xl mx-auto">
+                        With safer, cleaner, and healthier living spaces, families enjoy
+                        peaceful nights, protected kitchens, and homes free from pests.
+                    </p>
+                </div>
+
+
+                <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-8">
+                    {[
+                        {
+                            name: "Peaceful Sleep",
+                            description:
+                                "Effective mosquito control protects families from malaria.",
+                            image:
+                                "/images/household/households1.jpeg",
+                        },
+                        {
+                            name: "Safe & Clean Kitchen",
+                            description:
+                                "Pest-free homes improve hygiene and protect health.",
+                            image:
+                                "/images/household/households2.jpeg",
+                        },
+                        {
+                            name: "Comfortable Living",
+                            description:
+                                "Eliminating bedbugs restores comfort and dignity at home.",
+                            image:
+                                "/images/household/households3.jpeg",
+                        },
+                    ].map((product, index) => (
+                        <ProductCard key={index} product={product} />
+                    ))}
+                </div>
+            </div>
+        </section>
     </>
   );
 }

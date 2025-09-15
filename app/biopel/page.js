@@ -70,7 +70,7 @@ export default function BiopelPage() {
 
           </div>
         </div>
-      </section>
+      </section>Eco-friendly practices protect the land, water, and future generations.
 
       {/* Product Grid */}
       <section className="py-20 bg-gray-50">

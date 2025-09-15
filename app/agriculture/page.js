@@ -60,7 +60,7 @@ export default function AgriculturePage() {
                           src="/images/agriculture/aimage.jpeg"
                           alt="Farm field"
                           width={1000}
-                          height={600}
+                          height={850}
                           className="rounded-2xl shadow-lg w-full h-auto"
                           sizes="(max-width: 768px) 100vw, (max-width: 1200px) 50vw, 33vw"
                       />
@@ -73,38 +73,90 @@ export default function AgriculturePage() {
 
       <section className="py-20 bg-gray-50">
         <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
-          <div className="text-center mb-16">
-            <h2 className="text-4xl font-poppins font-bold text-gray-900 mb-4">
-              Agricultural <span className="text-primary-600">Product Line</span>
-            </h2>
-            <p className="text-xl text-gray-600 max-w-3xl mx-auto">
-              Explore our range of solutions designed for modern agriculture
-            </p>
-          </div>
+            <div className="text-center mb-16">
+                <h2 className="text-4xl font-poppins font-bold text-gray-900 mb-4">
+                    Agricultural <span className="text-secondary-600">Challenges</span>
+                </h2>
+                <p className="text-xl text-gray-600 max-w-3xl mx-auto">
+                    Farmers face threats like pests, low yields, and stunted crops that limit growth and food security.
+                </p>
+            </div>
 
-          <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-8">
+
+            <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-8">
             {[
-              {
-                name: 'WeedMaster Pro',
-                description: 'Advanced herbicide for broad-spectrum weed control',
-                image: '/images/products/a1.jpeg'
-              },
-              {
-                name: 'InsectGuard Plus',
-                description: 'Effective insecticide against common agricultural pests',
-                image: '/images/products/a2.jpeg'
-              },
-              {
-                name: 'CropBoost Elite',
-                description: 'Plant growth regulator for enhanced yield and quality',
-                image: '/images/products/a3.jpeg'
-              }
+                {
+                    name: "Crop Damage",
+                    description:
+                        "Locusts, caterpillars, and other pests destroy crops before harvest.",
+                    image:
+                        "/images/agriculture/agrip1.jpeg",
+                },
+                {
+                    name: "Reduced Yields",
+                    description:
+                        "Insects weaken plants, leading to poor harvests and food insecurity.",
+                    image:
+                        "/images/agriculture/agrip2.jpeg",
+                },
+                {
+                    name: "Stunted Growth",
+                    description:
+                        "Pests attack seedlings and young plants, stopping them from maturing.",
+                    image:
+                        "/images/agriculture/agrip3.jpeg",
+                },
+
             ].map((product, index) => (
               <ProductCard key={index} product={product} />
             ))}
           </div>
         </div>
       </section>
+
+        <section className="py-20 bg-gray-50">
+            <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
+                <div className="text-center mb-16">
+                    <h2 className="text-4xl font-poppins font-bold text-gray-900 mb-4">
+                        Agricultural <span className="text-secondary-600">Breakthroughs</span>
+                    </h2>
+                    <p className="text-xl text-gray-600 max-w-3xl mx-auto">
+                        With healthy crops, bigger harvests, and stronger plant growth, farming becomes more rewarding and sustainable.
+                    </p>
+                </div>
+
+
+                <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-8">
+                    {[
+                        {
+                            name: "Protected Fields",
+                            description:
+                                "Crops grow healthy and free from destructive pests.",
+                            image:
+                            "/images/agriculture/agris1.jpeg"
+                        },
+                        {
+                            name: "Bigger Harvests",
+                            description:
+                                "Healthy plants provide more food for families and markets.",
+                            image:
+                            "/images/agriculture/agris2.jpeg"
+                        },
+                        {
+                            name: "Stronger Growth",
+                            description:
+                                "Seedlings and young plants thrive without pest destruction.",
+                            image:
+                            "/images/agriculture/agris3.jpeg"
+                        },
+
+
+                    ].map((product, index) => (
+                        <ProductCard key={index} product={product} />
+                    ))}
+                </div>
+            </div>
+        </section>
     </>
   );
 }

@@ -6,7 +6,7 @@ const products = [
     {
         name: 'Insect Repellent for a Pest-Free Home',
         description: 'Our Bio-Pel™ sachets effectively repel bed bugs, cockroaches, ants, and silverfish without harming humans or pets.',
-        image: '/images/home/home-insect.png',
+        image: '/images/home/home-insect.jpg',
         features: ['Organic certified', 'Environmentally safe', 'Fast acting', 'Long lasting'],
         icon: Sprout,
         color: 'text-green-600'

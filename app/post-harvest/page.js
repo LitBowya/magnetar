@@ -57,10 +57,10 @@ export default function PostHarvestPage() {
             <div className="relative">
               <div className="bg-gradient-to-br from-primary-500 to-secondary-500 rounded-2xl p-1">
                 <Image
-                  src="/images/post-harvest/phimage.jpeg"
+                  src="/images/post-harvest/phimage.jpg"
                   alt="Post Harvest"
                   width={1000}
-                  height={600}
+                  height={850}
                   className="rounded-2xl shadow-lg w-full h-auto"
                   sizes="(max-width: 768px) 100vw, (max-width: 1200px) 50vw, 33vw"
                 />
@@ -72,38 +72,90 @@ export default function PostHarvestPage() {
 
       <section className="py-20 bg-gray-50">
         <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
-          <div className="text-center mb-16">
-            <h2 className="text-4xl font-poppins font-bold text-gray-900 mb-4">
-              Post-Harvest <span className="text-secondary-600">Product Line</span>
-            </h2>
-            <p className="text-xl text-gray-600 max-w-3xl mx-auto">
-              Explore our range of solutions designed for crop preservation
-            </p>
-          </div>
+            <div className="text-center mb-16">
+                <h2 className="text-4xl font-poppins font-bold text-gray-900 mb-4">
+                    Post-Harvest <span className="text-secondary-600">Challenges</span>
+                </h2>
+                <p className="text-xl text-gray-600 max-w-3xl mx-auto">
+                    After harvest, farmers struggle with pests, mold, and losses that reduce food quality and income.
+                </p>
+            </div>
 
-          <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-8">
+
+            <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-8">
             {[
-              {
-                name: 'StoreSafe Granules',
-                description: 'Prevent mold and pest infestation in stored grains',
-                image: '/images/products/ph1.jpeg'
-              },
-              {
-                name: 'FreshKeep Coatings',
-                description: 'Extend the shelf life of fruits and vegetables',
-                image: '/images/products/ph2.jpeg'
-              },
-              {
-                name: 'TransportGuard Sprays',
-                description: 'Protect produce during transportation from spoilage',
-                image: '/images/products/ph3.jpeg'
-              }
+                {
+                    name: "Grain Infestation",
+                    description:
+                        "Weevils and insects attack stored maize and beans, causing losses.",
+                    image:
+                        "/images/post-harvest/postp1.jpeg",
+                },
+                {
+                    name: "Mold and Spoilage",
+                    description:
+                        "Poor storage conditions lead to mold growth, making food unsafe.",
+                    image:
+                        "/images/post-harvest/postp2.jpeg",
+                },
+                {
+                    name: "Income Loss",
+                    description:
+                        "Damaged grains reduce market value and farmer profits.",
+                    image:
+                        "/images/post-harvest/postp3.jpeg",
+                },
+
             ].map((product, index) => (
               <ProductCard key={index} product={product} />
             ))}
           </div>
         </div>
       </section>
+
+        <section className="py-20 bg-gray-50">
+            <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
+                <div className="text-center mb-16">
+                    <h2 className="text-4xl font-poppins font-bold text-gray-900 mb-4">
+                        Post-Harvest <span className="text-secondary-600">Outcomes</span>
+                    </h2>
+                    <p className="text-xl text-gray-600 max-w-3xl mx-auto">
+                        With proper preservation, grains stay clean, fresh, and valuable for both families and markets.
+                    </p>
+                </div>
+
+
+                <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-8">
+                    {[
+                        {
+                            name: "Pest-Free Storage",
+                            description:
+                                "Grains remain clean and protected from insects and damage.",
+                            image:
+                                "/images/post-harvest/posts1.jpeg",
+                        },
+                        {
+                            name: "Fresh and Healthy Grains",
+                            description:
+                                "Harvests stay fresh without mold, safe for family and market use.",
+                            image:
+                                "/images/post-harvest/posts2.jpeg",
+                        },
+                        {
+                            name: "Higher Market Value",
+                            description:
+                                "Farmers earn more with clean, well-preserved grains that attract buyers.",
+                            image:
+                                "/images/post-harvest/posts3.jpeg",
+                        },
+
+
+                    ].map((product, index) => (
+                        <ProductCard key={index} product={product} />
+                    ))}
+                </div>
+            </div>
+        </section>
     </>
   );
 }

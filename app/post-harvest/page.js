@@ -13,8 +13,9 @@ export default function PostHarvestPage() {
   return (
     <>
       <Hero
-        title="Post-Harvest Solutions"
-        subtitle="Protect and preserve your harvest with our innovative post-harvest products that reduce waste and maintain quality."
+        title="Innovative Organic Solutions for Post Harvest "
+        subtitle=" At Magnater Bethel, we are dedicated to providing eco-friendly pest solutions that prioritize safety and effectiveness.
+Our unique Biopel™ technology ensures your crops remain protected without harmful chemicals."
         imageUrl="/images/post-harvest/phhero.jpeg"
         showButton={false}
       />

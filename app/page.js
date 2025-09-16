@@ -8,15 +8,16 @@ import AboutSection from "@/components/AboutSection";
 
 export const metadata = {
   title: 'Magnetar - Innovative Agricultural Solutions',
-  description: 'Discover Magnetar\'s advanced weedicides, insecticides, and biopel products for modern agriculture and household use.',
+  description: 'vvv',
 };
 
 export default function HomePage() {
   return (
     <>
       <Hero
-        title="Innovative Agricultural Solutions"
-        subtitle="Discover our advanced weedicides, insecticides, and biopel products for modern agriculture and household use."
+        title="Innovative Solution for Organic Safe Pest Management and Post Harvest losses."
+        subtitle=" At Magnater Bethel, we are dedicated to providing eco-friendly pest control solutions that protect your home and crops.
+Our Bio-Pel™ technology ensure safely for your family, pets and environment."
         imageUrl="/images/home/home.png"
         showButton={true}
         buttonText="Explore Products"

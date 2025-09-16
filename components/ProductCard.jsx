@@ -1,6 +1,5 @@
 // components/ProductCard.js
 'use client'
-import { ArrowRight } from 'lucide-react';
 
 export default function ProductCard({ product }) {
   return (

@@ -1,7 +1,10 @@
 // app/household/page.js
 import Hero from "@/components/Hero";
 import ProductCard from "@/components/ProductCard";
-import {Shield, Leaf} from 'lucide-react';
+import {
+    Biohazard, Trash2, Footprints, Briefcase, Baby, Leaf, ShieldCheck,
+    Bug, BugOff, BedDouble, Fish, Activity, HeartHandshake, Shield
+} from 'lucide-react';
 import Image from "next/image";
 
 export const metadata = {
@@ -20,7 +23,143 @@ export default function HouseholdPage() {
         showButton={false}
       />
 
-      <section className="py-20 bg-white">
+        <section className="py-20 max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
+            <h2 className="text-4xl font-poppins font-bold text-gray-900 text-center mb-12">
+                Insect <span className="text-green-600">Repellent</span>
+            </h2>
+
+            {/* Bacteria Repellent */}
+            <div className="grid grid-cols-1 md:grid-cols-2 gap-12 items-center mb-16">
+                {/* Text */}
+                <div>
+                    <div className="flex items-center mb-4">
+                        <div className="bg-green-100 p-3 rounded-lg mr-3">
+                            <Biohazard className="text-green-600" size={28} />
+                        </div>
+                        <h3 className="text-2xl font-semibold text-gray-800">
+                            Bacteria Repellent
+                        </h3>
+                    </div>
+                    <p className="text-lg text-gray-600 mb-4">
+                        Synergized essential oils captured in{" "}
+                        <span className="font-semibold text-green-700">Bio-Pel™ technology</span> are
+                        formulated to target a wide spectrum of bacteria.
+                    </p>
+                    <p className="text-lg teShoe
+Shoext-gray-600 mb-4">
+                        The sachets are placed in areas where bad odors caused by bacterial
+                        activity are present, for example:
+                    </p>
+                    <ul className="text-gray-600 mb-4 space-y-2">
+                        <li className="flex items-center">
+                            <Trash2 className="text-green-600 mr-2" size={20} />
+                            Garbage cans
+                        </li>
+                        <li className="flex items-center">
+                            <Footprints className="text-green-600 mr-2" size={20} />
+                            Shoes
+                        </li>
+                        <li className="flex items-center">
+                            <Briefcase className="text-green-600 mr-2" size={20} />
+                            Gym bags
+                        </li>
+                        <li className="flex items-center">
+                            <Baby className="text-green-600 mr-2" size={20} />
+                            Diaper bags
+                        </li>
+                    </ul>
+                    <div className="bg-gray-50 p-4 rounded-lg mt-6">
+                        <p className="text-lg text-gray-600 flex items-start">
+                            <Leaf className="text-green-600 mr-3 mt-1" size={24} />
+                            Crafted with eco-friendly ingredients that are safe for your family
+                            and the environment, each sachet neutralizes unpleasant odors while
+                            combating bacteria — for a cleaner, fresher space.
+                        </p>
+                    </div>
+                </div>
+                {/* Image */}
+                <div className="flex justify-center">
+                    <Image
+                        src="/images/household/hbacteria.png"
+                        alt="Bacteria illustration"
+                        width={1000}
+                        height={850}
+                        className="rounded-2xl shadow-lg object-cover"
+                    />
+                </div>
+            </div>
+
+            {/* Pest Repellent */}
+            <div className="grid grid-cols-1 md:grid-cols-2 gap-12 items-center">
+                {/* Image */}
+                <div className="flex justify-center">
+                    <Image
+                        src="/images/household/hinsect.png"
+                        alt="Insect illustration"
+                        width={1000}
+                        height={850}
+                        className="rounded-2xl shadow-lg object-cover"
+                    />
+                </div>
+                {/* Text */}
+                <div>
+                    <div className="flex items-center mb-4">
+                        <div className="bg-amber-100 p-3 rounded-lg mr-3">
+                            <Bug className="text-amber-600" size={28} />
+                        </div>
+                        <h3 className="text-2xl font-semibold text-gray-800">
+                            Pest Repellent
+                        </h3>
+                    </div>
+                    <p className="text-lg text-gray-600 mb-4">
+                        Synergized essential oils captured in{" "}
+                        <span className="font-semibold text-amber-700">Bio-Pel™ technology</span> are
+                        formulated to target a wide spectrum of household pests.
+                    </p>
+                    <p className="text-lg text-gray-600 mb-4">
+                        Only vapors are released through the sachet — oils or powders never
+                        touch humans, pets, clothes, food, or utensils. All ingredients are
+                        EPA approved.
+                    </p>
+                    <p className="text-lg text-gray-600 mb-4">
+                        The sachets are placed in cupboards, drawers, and wherever pests are
+                        present.
+                    </p>
+                    <p className="text-lg text-gray-700 font-medium mb-2">
+                        Targeted insects:
+                    </p>
+                    <ul className="text-gray-600 mb-4 space-y-2">
+                        <li className="flex items-center">
+                            <BedDouble className="text-amber-600 mr-2" size={20} />
+                            Bed bugs
+                        </li>
+                        <li className="flex items-center">
+                            <Bug className="text-amber-600 mr-2" size={20} />
+                            Cockroaches
+                        </li>
+                        <li className="flex items-center">
+                            <Fish className="text-amber-600 mr-2" size={20} />
+                            Silverfish
+                        </li>
+                        <li className="flex items-center">
+                            <Activity className="text-amber-600 mr-2" size={20} />
+                            Ants
+                        </li>
+                    </ul>
+                    <div className="bg-amber-50 p-4 rounded-lg mt-6">
+                        <p className="text-lg text-gray-600 flex items-start">
+                            <HeartHandshake className="text-amber-600 mr-3 mt-1" size={24} />
+                            Crafted with eco-friendly ingredients, our sachets provide lasting
+                            protection against household pests — safe for both your home and
+                            family.
+                        </p>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+
+        <section className="py-20 bg-white">
         <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
           <div className="grid grid-cols-1 lg:grid-cols-2 gap-16 items-center">
             <div>

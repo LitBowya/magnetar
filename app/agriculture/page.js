@@ -13,8 +13,8 @@ export default function AgriculturePage() {
   return (
     <>
       <Hero
-        title="Agricultural Solutions"
-        subtitle="Discover our comprehensive range of products designed to enhance productivity and protect your crops."
+        title=" Innovative Organic Solutions for Agriculture"
+        subtitle="Bio-Pel™ Slow-Release technology is effective to repel Insects, Mite Fungi, Bacteria and Nematodes. The technology is labeled for most vegetables, fruits, nuts, herbs, spices, greenhouse and field crops, landscape plants, bulbs and flowers."
         imageUrl="/images/agriculture/ahero.jpeg"
         showButton={false}
       />

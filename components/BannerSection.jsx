@@ -6,7 +6,7 @@ export default function BannerSection() {
       <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
         <div className="text-center">
           <h2 className="text-4xl md:text-5xl font-poppins font-bold text-white mb-6">
-            Ready to Transform Your Agricultural Practices?
+              Ready to transform your Pest Management and Post Harvest losses
           </h2>
           <p className="text-xl text-white mb-10 max-w-3xl mx-auto">
             Join thousands of farmers and households who trust Magnetar for effective and sustainable solutions.

@@ -13,7 +13,7 @@ const AboutSection = () => {
                     </h2>
                     <p className="text-lg text-gray-600 mb-6">
                         Magnetar is a leading provider of innovative agricultural solutions, specializing in
-                        advanced weedicides, insecticides, and biopel products. With years of research and
+                        advanced pest control and biopel products. With years of research and
                         development, we deliver effective and environmentally conscious products.
                     </p>
                     <p className="text-lg text-gray-600 mb-8">
@@ -22,12 +22,12 @@ const AboutSection = () => {
                     </p>
                     <div className="grid grid-cols-2 gap-8">
                         <div>
-                            <h3 className="text-2xl font-poppins font-bold text-secondary-600 mb-2">500+</h3>
-                            <p className="text-gray-600">Products Developed</p>
+                            <h3 className="text-2xl font-poppins font-bold text-secondary-600 mb-2">24/7</h3>
+                            <p className="text-gray-600">Support Available</p>
                         </div>
                         <div>
-                            <h3 className="text-2xl font-poppins font-bold text-secondary-600 mb-2">50K+</h3>
-                            <p className="text-gray-600">Happy Customers</p>
+                            <h3 className="text-2xl font-poppins font-bold text-secondary-600 mb-2">20+</h3>
+                            <p className="text-gray-600">Years Experience</p>
                         </div>
                     </div>
                 </div>
@@ -41,13 +41,13 @@ const AboutSection = () => {
                     </div>
                     <div className="absolute -bottom-6 -left-6 bg-white rounded-2xl p-4 shadow-lg">
                         <div className="flex items-center">
-                            <div className="bg-primary-100 p-3 rounded-full mr-4">
+                            <div className="bg-primary-100 p-3 rounded-full">
                                 <Shield className="h-8 w-8 text-secondary-600" />
                             </div>
-                            <div>
+                            {/* <div>
                                 <h3 className="font-poppins font-bold text-gray-900">Quality Certified</h3>
                                 <p className="text-sm text-gray-600">ISO 9001:2015</p>
-                            </div>
+                            </div> */}
                         </div>
                     </div>
                 </div>

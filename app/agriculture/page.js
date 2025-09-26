@@ -6,7 +6,7 @@ import Image from "next/image";
 
 export const metadata = {
   title: 'Agriculture Solutions | Magnetar - Advanced Farming Products',
-  description: 'Explore Magnetar\'s comprehensive range of agricultural products including weedicides, insecticides, and growth enhancers for modern farming.',
+  description: 'Explore Magnetar\'s comprehensive range of agricultural products including pest control and growth enhancers for modern farming.',
 };
 
 export default function AgriculturePage() {
@@ -27,20 +27,20 @@ export default function AgriculturePage() {
                 Advanced <span className="text-secondary-600">Farming Solutions</span>
               </h2>
               <p className="text-lg text-gray-600 mb-6">
-                Our agricultural products are designed to meet the challenges of modern farming.
-                From weed control to pest management and crop enhancement, Magnetar provides
+                Our pest control and post harvest agricultural products are designed to meet the challenges of modern farming.
+                From pest control management to crop enhancement, Magnetar provides
                 effective solutions that are backed by scientific research and field testing.
               </p>
               <p className="text-lg text-gray-600 mb-8">
                 We understand that every farm is unique. That is why we offer a diverse range of
-                products that can be tailored to specific crops, soil types, and environmental conditions.
+                pest control and post harvest management for all environmental conditions.
               </p>
 
               <div className="grid grid-cols-2 gap-8 mb-8">
                 <div className="flex items-center">
                   <Sprout className="h-8 w-8 text-green-500 mr-4" />
                   <div>
-                    <h3 className="font-poppins font-bold text-gray-900">Crop Protection</h3>
+                    <h3 className="font-poppins font-bold text-gray-900">Crop Protection from Pest</h3>
                     <p className="text-gray-600">Comprehensive pest management</p>
                   </div>
                 </div>

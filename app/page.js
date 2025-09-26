@@ -89,7 +89,7 @@ Our Bio-Pel™ technology ensure safely for your family, pets and environment."
         </section>
 
       {/* Testimonial Section */}
-      <TestimonialSection />
+      {/* <TestimonialSection /> */}
 
       {/* Banner Section */}
       <BannerSection />

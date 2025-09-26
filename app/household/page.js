@@ -173,7 +173,7 @@ Shoext-gray-600 mb-4">
                 compromising on effectiveness.
               </p>
               <p className="text-lg text-gray-600 mb-8">
-                From ant control to mosquito repellents, our solutions provide
+                From bacteria control to insect repellents, our solutions provide
                 long-lasting protection against household pests using
                 innovative, science-backed formulations.
               </p>
@@ -223,7 +223,7 @@ Shoext-gray-600 mb-4">
                     Household <span className="text-secondary-600">Realities</span>
                 </h2>
                 <p className="text-xl text-gray-600 max-w-3xl mx-auto">
-                    Across many homes, mosquitoes disturb sleep, cockroaches spread germs,
+                    Across many homes, pests disturb sleep, cockroaches spread germs,
                     and rodents damage food and property. These everyday struggles
                     threaten comfort and wellbeing.
                 </p>
@@ -233,9 +233,9 @@ Shoext-gray-600 mb-4">
             <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-8">
             {[
               {
-                name: "Mosquito Infestation",
+                name: "Budbugs infestation can be a nuisance!",
                 description:
-                  "Mosquitoes spread malaria and disturb peaceful rest.",
+                  "Small, red-brown spots or bloodstains, Live bugs in cracks, crevices, or bedding and Sweet, musty odor.",
                 image:
                   "/images/household/householdp1.jpeg",
               },
@@ -278,7 +278,7 @@ Shoext-gray-600 mb-4">
                         {
                             name: "Peaceful Sleep",
                             description:
-                                "Effective mosquito control protects families from malaria.",
+                                "Effective pest control protects families from Small, red-brown spots or bloodstains",
                             image:
                                 "/images/household/households1.jpeg",
                         },

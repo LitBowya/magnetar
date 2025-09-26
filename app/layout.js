@@ -7,9 +7,9 @@ import Footer from "@/components/Footer";
 export const metadata = {
     title: "Magnetar - Innovative Agricultural Solutions",
     description:
-        "Magnetar provides advanced weedicides, insecticides, and biopel products for modern agriculture and household use.",
+        "Magnetar provides advanced pest control and biopel products for modern agriculture and household use.",
     keywords:
-        "agriculture, weedicides, insecticides, biopel, post-harvest, household pests",
+        "agriculture, pest control, biopel, post-harvest, household pests",
     authors: [{ name: "Magnetar Team" }],
 };
 

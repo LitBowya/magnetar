@@ -56,13 +56,13 @@ export default function AboutPage() {
                             </div>
                             <div className="absolute -bottom-6 -left-6 bg-white rounded-2xl p-4 shadow-lg">
                                 <div className="flex items-center">
-                                    <div className="bg-primary-100 p-3 rounded-full mr-4">
+                                    <div className="bg-primary-100 p-3 rounded-full">
                                         <Award className="h-8 w-8 text-primary-600" />
                                     </div>
-                                    <div>
+                                    {/* <div>
                                         <h3 className="font-poppins font-bold text-gray-900">Quality Certified</h3>
                                         <p className="text-sm text-gray-600">ISO 9001:2015</p>
-                                    </div>
+                                    </div> */}
                                 </div>
                             </div>
                         </div>

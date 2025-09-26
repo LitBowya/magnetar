@@ -81,7 +81,7 @@ export default function BiopelPage() {
               </h2>
               <p className="text-xl text-gray-600 max-w-3xl mx-auto">
                   Across villages and fields, farmers struggle with tired soils,
-                  high expenses, and fragile ecosystems.
+                  high expenses, and fragile ecosystems which leads to.
               </p>
 
           </div>
@@ -89,13 +89,13 @@ export default function BiopelPage() {
           <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-8">
             {[
               {
-                name: 'Low Crop Yields',
-                description: 'Poor soil health reduces food production for farmers.',
+                name: 'Pest Attack on Crop Yields',
+                description: 'Crop Crisis Alert: Pests Devour, Farmers Suffer!.',
                 image: '/images/biopel/biopelp1.jpeg'
               },
               {
-                name: 'High Fertilizer Costs',
-                description: 'Expensive inputs strain small farmers’ limited budgets.',
+                name: 'Expensive inputs strain',
+                description: 'Small farmers struggle with costly inputs, straining their budgets',
                 image: '/images/biopel/biopelp2.jpeg'
               },
               {

@@ -1,6 +1,7 @@
 // components/Footer.js
 import Link from 'next/link';
-import { Shield, Facebook, Twitter, Instagram, Linkedin, Phone, Mail, MapPin } from 'lucide-react';
+import { Facebook, Instagram, Linkedin, Phone, Mail, MapPin } from 'lucide-react';
+import { SiTiktok } from 'react-icons/si'; // TikTok icon
 import Logo from "@/components/Logo";
 
 export default function Footer() {
@@ -8,6 +9,7 @@ export default function Footer() {
         <footer className="bg-gradient-to-b from-gray-100 to-white pt-16 pb-8">
             <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
                 <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 gap-12">
+                    
                     {/* Company Info */}
                     <div className="col-span-1 lg:col-span-2">
                         <Link href="/" className="flex items-center mb-6">
@@ -17,18 +19,47 @@ export default function Footer() {
                             Providing innovative solutions for agricultural excellence and household protection.
                             Our products are designed to enhance productivity while being environmentally conscious.
                         </p>
+
+                        {/* Social Media Links */}
                         <div className="flex space-x-4">
-                            <a href="#" className="text-gray-600 hover:text-primary-600 transition-colors">
-                                <Facebook className="h-6 w-6" />
+                            {/* Facebook */}
+                            <a 
+                                href="https://www.facebook.com/share/1BCaPg1etp/"
+                                target="_blank"
+                                rel="noopener noreferrer"
+                                className="bg-primary-100 text-primary-600 hover:bg-primary-600 hover:text-white transition-all rounded-full p-3 shadow-sm transform hover:scale-110 hover:rotate-3 duration-300 ease-out"
+                            >
+                                <Facebook className="h-5 w-5" />
                             </a>
-                            <a href="#" className="text-gray-600 hover:text-primary-600 transition-colors">
-                                <Twitter className="h-6 w-6" />
+
+                            {/* Instagram */}
+                            <a 
+                                href="https://www.instagram.com/magnetar_bethel?igsh=MWJqZHJicjNpb2dudw=="
+                                target="_blank"
+                                rel="noopener noreferrer"
+                                className="bg-primary-100 text-primary-600 hover:bg-primary-600 hover:text-white transition-all rounded-full p-3 shadow-sm transform hover:scale-110 hover:-rotate-3 duration-300 ease-out"
+                            >
+                                <Instagram className="h-5 w-5" />
                             </a>
-                            <a href="#" className="text-gray-600 hover:text-primary-600 transition-colors">
-                                <Instagram className="h-6 w-6" />
+
+                            {/* TikTok */}
+                            <a 
+                                href="https://www.tiktok.com/@magnetarel?_t=ZM-90cumqp5F5H&_r=1"
+                                target="_blank"
+                                rel="noopener noreferrer"
+                                className="bg-primary-100 text-primary-600 hover:bg-primary-600 hover:text-white transition-all rounded-full p-3 shadow-sm transform hover:scale-110 hover:rotate-6 duration-300 ease-out"
+                            >
+                                <SiTiktok className="h-5 w-5" />
                             </a>
-                            <a href="#" className="text-gray-600 hover:text-primary-600 transition-colors">
-                                <Linkedin className="h-6 w-6" />
+
+                            {/* LinkedIn */}
+                            <a 
+                                href="#"
+                                target="_blank"
+                                rel="noopener noreferrer"
+                                className="bg-primary-100 text-primary-600 hover:bg-primary-600 hover:text-white transition-all rounded-full p-3 shadow-sm transform hover:scale-110 hover:-rotate-6 duration-300 ease-out"
+                            >
+                                <Linkedin className="h-5 w-5" />
                             </a>
                         </div>
                     </div>
@@ -64,11 +95,9 @@ export default function Footer() {
                             </div>
                             <div className="flex items-start">
                                 <MapPin className="h-5 w-5 text-primary-600 mt-1 mr-3" />
-                                <span className="text-gray-600">Office location: No. 28
-
-31th street Dansoman.
-
- Accra, Ghana </span>
+                                <span className="text-gray-600">
+                                    Office location: No. 28, 31th Street, Dansoman, Accra, Ghana
+                                </span>
                             </div>
                         </div>
                     </div>

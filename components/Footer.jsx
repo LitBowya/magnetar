@@ -52,7 +52,7 @@ export default function Footer() {
                                 <SiTiktok className="h-5 w-5" />
                             </a>
 
-                            {/* LinkedIn */}
+                            {/* LinkedIn
                             <a 
                                 href="#"
                                 target="_blank"
@@ -60,7 +60,7 @@ export default function Footer() {
                                 className="bg-primary-100 text-primary-600 hover:bg-primary-600 hover:text-white transition-all rounded-full p-3 shadow-sm transform hover:scale-110 hover:-rotate-6 duration-300 ease-out"
                             >
                                 <Linkedin className="h-5 w-5" />
-                            </a>
+                            </a> */}
                         </div>
                     </div>
 

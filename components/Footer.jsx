@@ -27,7 +27,10 @@ export default function Footer() {
                                 href="https://www.facebook.com/share/1BCaPg1etp/"
                                 target="_blank"
                                 rel="noopener noreferrer"
-                                className="bg-primary-100 text-primary-600 hover:bg-primary-600 hover:text-white transition-all rounded-full p-3 shadow-sm transform hover:scale-110 hover:rotate-3 duration-300 ease-out"
+                                className="bg-primary-100 text-primary-600 rounded-full p-3 shadow-sm 
+                                           transition-all duration-300 ease-out transform 
+                                           hover:scale-110 hover:rotate-3 hover:shadow-lg 
+                                           hover:bg-primary-600 hover:text-white"
                             >
                                 <Facebook className="h-5 w-5" />
                             </a>
@@ -37,7 +40,10 @@ export default function Footer() {
                                 href="https://www.instagram.com/magnetar_bethel?igsh=MWJqZHJicjNpb2dudw=="
                                 target="_blank"
                                 rel="noopener noreferrer"
-                                className="bg-primary-100 text-primary-600 hover:bg-primary-600 hover:text-white transition-all rounded-full p-3 shadow-sm transform hover:scale-110 hover:-rotate-3 duration-300 ease-out"
+                                className="bg-primary-100 text-primary-600 rounded-full p-3 shadow-sm 
+                                           transition-all duration-300 ease-out transform 
+                                           hover:scale-110 hover:-rotate-3 hover:shadow-lg 
+                                           hover:bg-primary-600 hover:text-white"
                             >
                                 <Instagram className="h-5 w-5" />
                             </a>
@@ -47,17 +53,23 @@ export default function Footer() {
                                 href="https://www.tiktok.com/@magnetarel?_t=ZM-90cumqp5F5H&_r=1"
                                 target="_blank"
                                 rel="noopener noreferrer"
-                                className="bg-primary-100 text-primary-600 hover:bg-primary-600 hover:text-white transition-all rounded-full p-3 shadow-sm transform hover:scale-110 hover:rotate-6 duration-300 ease-out"
+                                className="bg-primary-100 text-primary-600 rounded-full p-3 shadow-sm 
+                                           transition-all duration-300 ease-out transform 
+                                           hover:scale-110 hover:rotate-6 hover:shadow-lg 
+                                           hover:bg-primary-600 hover:text-white"
                             >
                                 <SiTiktok className="h-5 w-5" />
                             </a>
 
-                            {/* LinkedIn
+                            {/* LinkedIn (optional for future use)
                             <a 
                                 href="#"
                                 target="_blank"
                                 rel="noopener noreferrer"
-                                className="bg-primary-100 text-primary-600 hover:bg-primary-600 hover:text-white transition-all rounded-full p-3 shadow-sm transform hover:scale-110 hover:-rotate-6 duration-300 ease-out"
+                                className="bg-primary-100 text-primary-600 rounded-full p-3 shadow-sm 
+                                           transition-all duration-300 ease-out transform 
+                                           hover:scale-110 hover:-rotate-6 hover:shadow-lg 
+                                           hover:bg-primary-600 hover:text-white"
                             >
                                 <Linkedin className="h-5 w-5" />
                             </a> */}
@@ -68,7 +80,7 @@ export default function Footer() {
                     <div>
                         <h3 className="text-lg font-poppins font-semibold text-gray-900 mb-6">Quick Links</h3>
                         <ul className="space-y-3">
-                            {['Biopel', 'Post-Harvest', 'Household', 'Agriculture','Services', 'About', 'Contact'].map((item) => (
+                            {['Biopel', 'Post-Harvest', 'Household', 'Agriculture', 'Services', 'About', 'Contact'].map((item) => (
                                 <li key={item}>
                                     <Link
                                         href={`/${item.toLowerCase().replace(' ', '-')}`}
@@ -109,9 +121,9 @@ export default function Footer() {
                         © {new Date().getFullYear()} Magnetar. All rights reserved.
                     </p>
                     <div className="flex space-x-6 mt-4 md:mt-0">
-                        <a href="#" className="text-gray-600 hover:text-primary-600 text-sm">Privacy Policy</a>
-                        <a href="#" className="text-gray-600 hover:text-primary-600 text-sm">Terms of Service</a>
-                        <a href="#" className="text-gray-600 hover:text-primary-600 text-sm">Cookie Policy</a>
+                        <a href="#" className="text-gray-600 hover:text-primary-600 text-sm transition-colors">Privacy Policy</a>
+                        <a href="#" className="text-gray-600 hover:text-primary-600 text-sm transition-colors">Terms of Service</a>
+                        <a href="#" className="text-gray-600 hover:text-primary-600 text-sm transition-colors">Cookie Policy</a>
                     </div>
                 </div>
             </div>
